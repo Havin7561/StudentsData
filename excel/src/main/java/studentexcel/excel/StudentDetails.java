@@ -117,20 +117,18 @@ public class StudentDetails {
 	public String findGradepoint(double mark) {
 		if(mark > 91 && mark <= 100)
 			return "10.0" ;
-		else if(mark > 81 && mark <= 90)
+		if(mark > 81 && mark <= 90)
 			return "9.0" ;
-		else if(mark > 71 && mark <= 80)
+		if(mark > 71 && mark <= 80)
 			return "8.0" ;
-		else if(mark > 61 && mark <= 70)
+		if(mark > 61 && mark <= 70)
 			return "7.0" ;
-		else if(mark > 51 && mark <= 60)
+		if(mark > 51 && mark <= 60)
 			return "6.0" ;
-		else if(mark > 41 && mark <= 50)
+		if(mark > 41 && mark <= 50)
 			return "5.0" ;
-		else if(mark > 33 && mark <= 40)
+		if(mark > 33 && mark <= 40)
 			return "4.0" ;
-		else if(mark > 21 && mark <= 32)
-			return "c" ;
 		else 
 			return "c" ;
 		
@@ -141,22 +139,20 @@ public class StudentDetails {
 	public String findGrade(double mark) {
 		if(mark > 91 && mark <= 100)
 			return "A1";
-		else if(mark > 81 && mark <= 90)
+		if(mark > 81 && mark <= 90)
 			return "A2" ;
-		else if(mark > 71 && mark <= 80)
+		if(mark > 71 && mark <= 80)
 			return "B1" ;
-		else if(mark > 61 && mark <= 70)
+		if(mark > 61 && mark <= 70)
 			return "B2" ;
-		else if(mark > 51 && mark <= 60)
+		if(mark > 51 && mark <= 60)
 			return "C1" ;
-		else if(mark > 41 && mark <= 50)
+		if(mark > 41 && mark <= 50)
 			return "C2" ;
-		else if(mark > 33 && mark <= 40)
+		if(mark > 33 && mark <= 40)
 			return "D" ;
-		else if(mark > 21 && mark <= 32)
-			return "E1" ;
 		else 
-			return "E2" ;
+			return "E1" ;
 		
 	}
 	
